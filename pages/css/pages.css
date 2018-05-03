@@ -16,3 +16,11 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+.goed {
+    color: green; 
+}
+
+.slecht {
+    color: red;
+}
