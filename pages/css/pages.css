@@ -24,3 +24,12 @@ img {
 .slecht {
     color: red;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
