@@ -33,3 +33,19 @@ a {
 a:hover {
     color: grey;
 }
+
+h1 {
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Karla', sans-serif;
+}
