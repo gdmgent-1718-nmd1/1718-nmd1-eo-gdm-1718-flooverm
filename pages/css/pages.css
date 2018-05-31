@@ -49,3 +49,10 @@ body {
     font-size: 1em;
     font-family: 'Karla', sans-serif;
 }
+
+.home {
+    height: 70px;
+}
+.menu {
+    height: 50px;
+}
