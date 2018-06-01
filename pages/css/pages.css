@@ -27,7 +27,7 @@ img {
 
 a {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -100,4 +100,23 @@ body {
     padding-right: 28px;
     display: inline-block;
     border: 2px solid black;
+}
+
+.hoofdtitel {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.ondertitel {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home {
+    margin: 0px;
+    color:white;
+} 
+
+.home:hover {
+    color: white;
+    
 }
