@@ -146,12 +146,10 @@ body {
 .item{
     width:200px;
     height:200px;
-    /*background-color: rgba(0, 0, 0, 0.062);*/
-    border: 2px solid grey;
+    border: 2px solid rgb(0, 0, 0);
     margin: 0px;
     flex-grow: 1; /*alles wordt verdeeld als het scherm groter/kleiner wordt*/
     align-content: center;
-    
     position: relative;
 }
 
@@ -164,7 +162,7 @@ body {
     justify-content: space-evenly; /*Bij row(reverse) volgens de x-as; bij colupn(reverse) volgens de y-as*/ /*felx-start; flex-end; center; space-between; space-around; space-evenly*/
     align-items: center; /*bij row(reverse) volgens de y-as; bij column(reverse) volgens de x-as; standaard is flex-start, andere flex-end; center; stretch(werkt niet bij vaste hoogte); baseline(op tekst)*/
     /*flex-direction:column; justify-content:flex-start; align-items:flex-start --> pinterest achtige kolommen*/
-    background-image: url("images/menu-achtergrond.jpg");
+    background-image: url("../images/menu-achtergrond.jpg");
 }
 
 .middle {
@@ -174,7 +172,7 @@ body {
 
 }
 .item:hover {
-    background-color: rgb(182, 182, 182);
+    background-color: rgba(182, 182, 182, 0.658);
     color: black; 
 }
 
@@ -182,6 +180,21 @@ a.middle {
     color: white;
     font-size: 2em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
     text-decoration: none;
+}
+
+.middle:hover {
+    color: black;
+}
+
+.meer-marge-l {
+    margin-left: 50px;
+}
+
+.meer-marge-r {
+    margin-right: 50px;
+}
+
+.marge-links {
+    margin-left: 280px;
 }
